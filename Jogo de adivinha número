@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("_____BEM VINDO____\n");
+    printf("BEM VINDO AO JOGO DE ADVINHA\n");
+    int secretNumber = 7;
+    int guess;
+    
+    while (guess != secretNumber) {
+        printf("Digite um número: ");
+        scanf ("%d", &guess);
+    }
+    printf ("VOCÊ ACERTOU! ");
+    
+
+    return 0;
+}
